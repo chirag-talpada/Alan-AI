@@ -1,15 +1,18 @@
 import React from 'react';
 
+import classNames from 'classnames';
+
 import defaultImg from '../../assets/default.jpg';
 
-const NewsCard = ({article:{ description,publishedAt,source,title,url,urlToImage },i}) => {
+const NewsCard = ({article:{ description,publishedAt,source,title,url,urlToImage },i,activeArticle}) => {
   
     const redirectPage=(link)=>{
         window.open(link,"_blank");
     }
-  
+    
+    
     return (
-    <div className="card" onClick={()=>redirectPage(url)}>
+    <div className={classNames("card",activeArticle===i?"active":null)} onClick={()=>redirectPage(url)}>
             <div className="glass"></div>
             <div className="card-img">
                 <img src={urlToImage||defaultImg} alt="newsimg" />

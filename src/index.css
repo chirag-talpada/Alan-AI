@@ -13,3 +13,20 @@ html{
 body{
     background: #010615;
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border: 2px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-bottom: 0px;
+    border-top: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,#40545a,#40545a);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #57686d;
+}
