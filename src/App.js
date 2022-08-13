@@ -8,7 +8,7 @@ import NewsCards from './components/NewsCards/NewsCards';
 import WhetherCard from './components/WhetherCard';
 import bannerLogo from './assets/logo.png';
 
-const alanKey='9c726505312ed6ecd1a9af5c9a6d8b3e2e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey='';
 
 const App = () => {
 
