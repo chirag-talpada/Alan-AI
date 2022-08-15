@@ -48,6 +48,7 @@ const NewsCards = ({articles,activeArticle}) => {
                 <div>Trying to Say:</div>
                 <div className="infocard-info">
                   <div>Weather in Mumbai (location)</div>
+                  <div>show me full weather report for Mumbai</div>
                   <div>Open Youtube</div>
                   <div>Open Google</div>
                   <div>Open Whatsapp</div>
@@ -55,7 +56,6 @@ const NewsCards = ({articles,activeArticle}) => {
                   <div>Search best javascript framwork</div>
                   <div>Search advance javascript in Youtube </div>
                   <div>etc...</div>
-                  <div>&nbsp;</div>
                   <div>&nbsp;</div>
                   <div>&nbsp;</div>
                 </div>

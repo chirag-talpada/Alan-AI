@@ -47,6 +47,9 @@ const App = () => {
                         setWhetherData(data);
                         setIsWhetherData(true);
                         break;
+                    case "fullWhetherData":
+                        window.open("https://www.google.com/search?q=weather+in+"+word+"",'_blank');
+                        break;
                     case "openYoutube":
                         window.open("https://youtube.com",'_blank');
                         break;
